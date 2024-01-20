@@ -41,3 +41,7 @@ nums.sort(reverse=True)
 print(nums)
 print(courses)
 
+print(min(nums))
+print(max(nums))
+print(sum(nums))
+
