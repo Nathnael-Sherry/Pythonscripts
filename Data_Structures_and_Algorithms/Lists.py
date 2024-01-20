@@ -51,4 +51,4 @@ for item in courses:
 
 #Enumerate gives both index and function
     for index, course in enumerate(courses):
-        prin
+        print(index, course)
