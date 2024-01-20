@@ -33,7 +33,7 @@ last_value = courses.pop()
 print(last_value)
 print(courses)
 
-#Sortinf lists.
+#Sorting lists.
 courses.sort()
 nums.sort()
 nums.sort(reverse=True)
@@ -45,3 +45,10 @@ print(min(nums))
 print(max(nums))
 print(sum(nums))
 
+#Loops in lists.
+for item in courses:
+    print(item)
+
+#Enumerate gives both index and function
+    for index, course in enumerate(courses):
+        prin
