@@ -1,6 +1,7 @@
 # Allows us to work with a list of values and perform operations on them.
 
 courses = ['History', 'Maths', 'Physics', 'ÇompSci']
+nums = [1,4,2,6,7]
 
 print(courses)
 
@@ -22,3 +23,21 @@ print(courses)
 #Insert add a member to a specific location.
 courses.insert(2, 'Biology')
 print(courses)
+
+#Remove removes a value at a particular index.
+courses.remove('Maths')
+print(courses)
+
+#Pop removes the last value of a list.
+last_value = courses.pop()
+print(last_value)
+print(courses)
+
+#Sortinf lists.
+courses.sort()
+nums.sort()
+nums.sort(reverse=True)
+
+print(nums)
+print(courses)
+
